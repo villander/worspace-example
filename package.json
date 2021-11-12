@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "project",
+  "workspaces": [
+    "client",
+    "client-packages/*"
+  ],
+  "scripts": {
+    "serve": "cd ./client && ember serve",
+    "test": "yarn workspaces run test"
+  }
+}

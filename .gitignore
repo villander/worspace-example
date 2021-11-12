@@ -1,0 +1,16 @@
+# JS dependencies
+node_modules/
+yarn-error.log
+
+# compiled output
+**/dist/
+**/tmp/
+
+# Ignore test results
+# /coverage/
+
+.DS_Store
+
+# IDE
+.idea
+/.vscode
